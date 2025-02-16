@@ -269,7 +269,7 @@ def resume_prompt_test():
     chat_obj = init_chat_obj()
     job_name = "NewResumeTest"
 
-    file_content =read_docx('/Users/thomt/Desktop/Dev/GHQ_ML_Foundation_Layer/test_data/resume.docx')
+    file_content =read_docx('/resume.docx')
 
     # print(file_content[:100])
 

@@ -15,7 +15,7 @@ class AwsS3Service:
                                  aws_secret_access_key=current_app.config['AWS_SECRET_ACCESS_KEY']
                                  )
 
-        bucket_name = 'ghq-bucket'
+        bucket_name = 'my-bucket'
         extension = get_extension(path)
         file_name = str(uuid.uuid4()) + extension
 
